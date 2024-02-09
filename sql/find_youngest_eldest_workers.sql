@@ -8,4 +8,4 @@ SELECT 'OLDEST' TYPE, name, birthday FROM worker
 GROUP BY name
 HAVING birthday IN (
     SELECT MIN (birthday) FROM worker
-) ORDER BY TYPE DESC
+) ORDER BY TYPE DESC;

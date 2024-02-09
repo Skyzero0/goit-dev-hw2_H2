@@ -9,7 +9,7 @@ INSERT INTO worker VALUES
 (8, 'KLARA', '1965-12-27', 'Middle', 10000),
 (9, 'JAMIR', '2002-08-14', 'Junior', 3000),
 (10, 'DAMIR', '1986-02-15', 'Middle', 8935),
-(15, 'ANDER', '1965-12-27', 'Middle', 5706)
+(15, 'ANDER', '1965-12-27', 'Middle', 5706);
 
 
 INSERT INTO client VALUES 
@@ -19,7 +19,7 @@ INSERT INTO client VALUES
 (4, 'DOMINIKA'),
 (5, 'ZLATA'),
 (6, 'ANDREW'),
-(7, 'JAWELINA')
+(7, 'JAWELINA');
 
 
 INSERT INTO project VALUES 
@@ -32,7 +32,7 @@ INSERT INTO project VALUES
 (7, 7, '2019-06-16', '2019-08-12'),
 (8, 2, '2017-01-12', '2019-02-07'),
 (9, 5, '2022-06-01', '2023-07-25'),
-(10, 3, '2023-05-19', '2023-09-10')
+(10, 3, '2023-05-19', '2023-09-10');
 
 
 INSERT INTO project_worker VALUES 
@@ -45,4 +45,4 @@ INSERT INTO project_worker VALUES
 (7, 1),(7,6),(7,3),
 (8, 2),(8,5),(8,6),(8,10),
 (9, 4),(9,7),
-(10, 6),(10,7)
+(10, 6),(10,7);

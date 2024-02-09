@@ -9,4 +9,5 @@ WHERE C.id IN (
      ORDER BY COUNT(P.id) DESC
      LIMIT 1
    )
-) GROUP BY C.id
+)
+GROUP BY C.id;
